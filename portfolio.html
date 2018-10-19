@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <!-- JQuery UI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      
+    <!-- Bootstrap -->  
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+      
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prociono|Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    
+    <!-- Font Awesome Icons --> 
+    <script src="https://use.fontawesome.com/5512aa1683.js"></script>
+      
+    <!--  CSS  -->
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+      
+    <!-- About CSS  -->
+    <link rel="stylesheet" type="text/css" href="styles/about.css">
+      
+    <!--  PartA CSS  -->
+    <link rel="stylesheet" type="text/css" href="styles/partA.css">
+      
+    <!--  Modal CSS  -->
+    <link rel="stylesheet" type="text/css" href="styles/modal.css">
+      
+    <!-- Javascript File -->      
+    <script src="js/_main.js"></script>   
+      
+    <!--  Menu CSS  -->
+    <link rel="stylesheet" type="text/css" href="styles/menu.css">
+    <title>David Jeffs</title>
+  </head>
+        <header class="header">
+                <div>
+                    <a href="index.html" ><img src="Images/iconInitial.png" class="iconLookup" id='DWJ' alt="davidWjeffs"></a>
+               </div>
+                 <ul class="topnav" id ="myTopnav">
+                    <li><a href="http://www.behance.com" target="_blank" id="socialGap" title='Behance'><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                    <li><a href="http://www.linkedin.com" target="_blank" id="socialGap" title='Linked-In'><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="http://www.stackoverflow.com" id="socialGap" title='StackOverFlow'><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+                    <li><a>|</a></li>
+                    <li ><a href="about.html" id="colorChange">About</a></li>  
+                    <li ><a href="courseReflection.html" id="colorChange">Course Reflection</a></li>
+                    <li>
+                        <div  class="dropdown">
+                            <a class="dropbtn">Projects <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                              <div class="dropdown-content">
+                                    <a class="dropdown-item" id="colorChange" href="livemylife.html">Design Proposal</a>
+                                    <a class="dropdown-item" id="colorChange" href="partA.html">Project Part A</a>
+                                    <a class="dropdown-item" id="colorChange" href="partB.html">Project Part B</a>
+                                    <a class="dropdown-item" id="colorChange" href="partC.html">Project Part C</a>
+                                    <a class="dropdown-item" id="colorChange" href="portfolio.html">Portfolio</a>
+                              </div>
+                        </div>
+                    </li>
+                </ul>
+
+        </header>
+
+          <body  class="mainBackground">          
+            <div class="contentStuff">
+             <div id="heading">
+                  <p id="topHeading">Portfolio</p>
+              </div>
+                <div id="wrapper">
+                    <div id="newRow">
+                        <P id='hashAbout'>This website</P>
+                        <p>	
+	                     This website aims to showcase off the work produced over the length of this course. 
+                        </p>
+                        <p>	
+                        Each section of the website showcases a snapshot of both the work undertaken, and the process involved. 
+                        </p>
+                     <p>
+	                 Whilst the content for the website is an accumulation of a semester of work, the inspiration for the website design was a process that involved immersing myself in the world of portfolios through the <a href="http://www.awwwards.com">Awwwards</a> design website.
+                     </p>
+                     <p>
+	                 I looked for navigational ideas as well as content presentation ideas. 
+                    </p>
+                  </div>
+                    
+                    
+                <div id="newRow">
+                 <div id="leftColumn">
+                    <P id='hashAbout'>Sketches</P>
+                    <p>
+                    Examining the website design I broke it into two main sections. The main page and the content pages. The main page would ideally showcase exactly what I am about, whilst the content pages would be able to be easily filled with content.
+                    </p>
+                    <p>
+                    Being a fan of pen and paper, I sketched out some initial designs of how I would like certain aspects of the website to look.  
+                    </p>
+                    <p>
+                    I am a fan of simplistic design, however I am concious of the fact that many small aspects of design can make a massive difference on both user experience, and user interaction. Hence I was determined to make the site navigation an easy to understand process. 
+                    </p>
+
+                 </div>
+                 <div id="rightColumn">
+                    <div id="CarouselFour" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="Images/mainProto.jpg" style="height: 20em;" class="myImg slider-size">
+                              <div class="carousel-caption">
+                                <h3>Sketch - Main Page</h3>
+                              </div>
+                             
+                            </div>
+
+                            <div class="item">
+                                
+                                <img src="Images/contentProto.jpg" class="myImg slider-size" align="middle">
+                    
+
+                                
+                              <div class="carousel-caption">
+                                <h3>Sketch - Content Page</h3>
+                            </div>
+                          </div>
+
+                          <!-- Left and right controls -->
+                          <a class="left carousel-control" href="#CarouselFour" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#CarouselFour" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                </div>
+                 </div>
+                </div>
+                    
+                    
+                <div id="wholeRow">
+                        <P id='hashAbout'>The Development</P>
+                        <p>	
+	                       Taking the development from the sketches to the coding was a big step, and the design changed along the way. 
+                        </p>
+                        <p>
+                        It is preferable to set out a plan to develop the website. However this website was developed on more of a trial and error approach of slowly improving some aspects, and the adding extras in.
+                        </p>
+
+                    </div>
+                <div id="newRow">
+                <div id="leftColumn">
+                    <P id='hashAbout'>Main Page</P>
+                    <p>
+                    Developing this page first allows the creation of a basic template to carry through the whole design. This is largely structured around navigation, with the menu being produced initially. and then the underlying content. Placing the header up the top and my logo on the top right is in keeping with standard website convention.
+                    </p>
+                    <p>
+                    The idea behind the main page is focus on two aspects of professional life that help me stand out from the crowd, while also ensuring that prospective employers are aware I have a life of experience to draw from.
+                    </p>
+                </div>
+                <div id="rightColumn">
+                    <div id="CarouselOne" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="Images/finishedPrototype.png" style="height: 20em;" class="myImg slider-size">
+                              <div class="carousel-caption">
+                                <h3>Main Page - first iteration</h3>
+                              </div>
+                             
+                            </div>
+
+                            <div class="item">
+                                
+                                <img src="Images/finishedMain.png" class="myImg slider-size" align="middle">
+                    
+
+                                
+                              <div class="carousel-caption">
+                                <h3>Main Page - completed</h3>
+                            </div>
+                          </div>
+
+                          <!-- Left and right controls -->
+                          <a class="left carousel-control" href="#CarouselOne" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#CarouselOne" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                </div>
+                </div>
+                </div>
+                    
+                <div id="newRow">
+                <div id="leftColumn">
+                    <P id='hashAbout'>Project Content Page</P>
+                    <p>
+                    The page you are currently on is the content page. This was developed on top of the main page. The basic use of divs has allowed the structured nature of information.
+                    </p>
+                    <p>
+                    You can notice a structured approach to the information presentation, with columns used to split the information up. I planned to have the information flow much like that of an essay. However with the addition of helpful graphics.
+                    </p>
+                </div>
+                <div id="rightColumn">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="Images/contentPage.JPG" style="height: 20em;" class="myImg slider-size">
+                              <div class="carousel-caption">
+                                <h3>Sketch - Contents page</h3>
+                              </div>
+                             
+                            </div>
+
+                        </div>
+                </div>
+                </div>
+                </div>
+                    
+                <div id="newRow">
+                <div id="leftColumn">
+                    <P id='hashAbout'>About Page</P>
+                    <p>
+                    The About page was set up in the same template as the project content pages. However the uniqueness of the page meant that significant thought was required to go into the production.
+                    </p>
+                    <p>
+                    The general idea behind the page is structuring a general introduction, and then following a hierarchy of importance down the page. The least important information (my location) is set down the bottom of the page.
+                    </p>
+                </div>
+                <div id="rightColumn">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="Images/aboutPage.JPG" style="height: 20em;" class="myImg slider-size">
+                              <div class="carousel-caption">
+                                <h3>Sketch - About page</h3>
+                              </div>
+                             
+                            </div>
+
+                        </div>
+                </div>
+                    
+                </div>
+                </div>
+                    
+                    
+                <div id="newRow">
+                <div id="leftColumn">
+                    <P id='hashAbout'>Sliders</P>
+                    <p>
+                    Initially for the sliders I investigated the use of jQuery. However after some extra research I discovered that the carousel is a basic function within HTML/CSS.
+                    </p>
+                    <p>
+                    Designing the carousel I made use of conventions, with the left/right controls on left and right. In addition the caption was placed as such in order to describe the image.
+                    </p>
+                    <p>
+                    Using JavaScript I implemented a modal window expansion of images such that users can investigate them in greater detail.
+                    </p>
+                </div>
+                <div id="rightColumn">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="Images/slider.jpg" style="height: 20em;" class="myImg slider-size">
+                              <div class="carousel-caption">
+                                <h3>Sketch - Sliders design</h3>
+                              </div>
+                             
+                            </div>
+
+                        </div>
+                </div>
+                </div>
+                    </div>
+             <div id="newRow">
+                <div id="leftColumn">
+                    <P id='hashAbout'>Navigation</P>
+                    <p>
+                    The navigation is the key aspect of the website. Every page is within one click of the other at all times. The menu is stuck to the top of the page to ensure users have quick navigation.
+                    </p>
+                    <p>
+                    The menu on the page clearly shows quick links to all pages, and to social websites of interest to employers. Additionally my own logo conventionally directs users back to the main page.
+                    </p>
+                </div>
+                <div id="rightColumn">
+
+                    <div id="CarouselFive" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="Images/menudesign.jpg" style="height: 20em;" class="myImg slider-size">
+                              <div class="carousel-caption">
+                                <h3>Menu Design</h3>
+                              </div>
+                             
+                            </div>
+
+                            <div class="item">
+                                
+                                <img src="Images/navigation.jpg" class="myImg slider-size" align="middle">
+                    
+
+                                
+                              <div class="carousel-caption">
+                                <h3>Navigational Structure</h3>
+                            </div>
+                          </div>
+
+                          <!-- Left and right controls -->
+                          <a class="left carousel-control" href="#CarouselFive" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#CarouselFive" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                </div>
+                </div>
+                </div>
+
+                                        
+                <div id="wholeRow">
+                        <P id='hashAbout'>Reflection</P>
+                        <p>	
+	                       With much of CityWalker focusing on Javascript, this website was designed using largely HTML/CSS. This has allowed me to learn a great deal about several aspects. 
+                        </p>
+                        <p>
+                        It was during this reflection stage I have come to an understanding of my still very limited planning skills. In future designs I should make greater use of software programs such as Balsamiq, and additionally spend more time on the design of websites.
+                        </p>
+                        <p>
+                        By rushing into sections I am unable to fully realise the capabilities of different designs. 
+                       </p>
+
+                    </div>
+            </div>
+        </div>
+              
+    <!--   modal for images     -->
+        <div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+                <div class="modal-body">
+                  <img src="" class="enlargeImageModalSource" style="width: 100%;">
+                </div>
+              </div>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <p id="footer"><i class="fa fa-copyright"></i>made by David W Jeffs</p>
+    </footer>
+</html>

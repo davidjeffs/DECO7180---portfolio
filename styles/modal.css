@@ -1,0 +1,40 @@
+.myImg {
+    cursor: zoom-in;
+}
+
+.imgTwo {
+    cursor: zoom-in;
+}
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.modal-body {
+    max-height: auto;
+}
+
+.modal-body img {
+    
+    height: 80%;
+}
+
+.close {
+    position: absolute;
+    left: 93%;
+    font-size: 8em;
+    margin-right: 1em;
+    color: red;
+    z-index: 1;
+}

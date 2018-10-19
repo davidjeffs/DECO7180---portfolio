@@ -1,0 +1,65 @@
+#leftColumn {
+float:left;
+width:45%;
+}
+
+#rightColumn {
+float:right;
+width:45%;
+}
+
+#inlineList {
+    display:table-column;
+}
+
+#listJustify {
+    float: left;
+    font-family: 'Arvo', serif;
+    color: #4d4d4d;
+}
+
+#newRow {
+    display:inline-block;
+    min-width: 100%;
+    padding-top: 2em;
+}
+
+#wholeRow {
+    width: 70%;
+    display:inline-block;
+    padding-top: 2em;
+}
+
+.item {
+    height: 20em;
+}
+
+.slider-size {
+    object-fit: cover;
+    width:100%;
+}
+
+
+.carousel-caption {
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(102, 102, 102, 0.8);
+    left: 0;
+    padding:3px;
+    right: 0;
+}
+
+
+h3 {
+    font-size: 1em;
+}
+
+.carousel-inner {
+    margin-top: 3em;
+}
+
+#centerIcons {
+text-align: center;    
+display: table-cell;
+vertical-align: middle; 
+}
